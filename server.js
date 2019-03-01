@@ -18,7 +18,7 @@ server.listen(port, (err) => {
 });
 
 var fs = require('fs');
-//create a file using fs.writeFile or fs.writeFileSync
+
 fs.writeFile('hello-world.txt', "Hello to this great world", (err) => {
   if (err) throw err;
 
